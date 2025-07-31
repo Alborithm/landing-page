@@ -2,4 +2,18 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    outline: 1px solid red;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid blue;
+}
+
+nav-link {
+
 }
