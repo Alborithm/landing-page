@@ -130,3 +130,27 @@ a {
 .service-item {
     width: 150px;
 }
+
+.quote-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text, .quote-who {
+    margin: 10px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-who {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+}
