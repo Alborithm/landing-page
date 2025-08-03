@@ -154,3 +154,39 @@ a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.call-to-action-section {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-fill {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    background-color: var(--buton-color);
+    color: var(--light-text-color);
+    border-radius: 10px;
+}
+
+.call-to-action-fill div h3 {
+    font-size: 24px;
+}
+
+.call-to-action-fill div p {
+    font-size: 18px;
+}
+
+.call-to-action-fill button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--light-text-color);
+    color: var(--light-text-color);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+}
